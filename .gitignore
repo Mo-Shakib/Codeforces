@@ -3,3 +3,4 @@
 !.vscode/launch.json
 *.code-workspace
 .cph
+.DS_Store
