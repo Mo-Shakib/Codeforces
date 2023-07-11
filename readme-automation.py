@@ -3,6 +3,12 @@ import shutil
 import re
 import subprocess
 from datetime import datetime
+import git, time
+from git.objects.commit import Commit 
+
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+repo = git.Repo(dir_path)
 
 # Define the problem difficulty levels
 difficulty_levels = {
@@ -66,5 +72,17 @@ for difficulty in difficulty_levels.keys():
                     problem_link = match.group(1)
 
             readme_file.write(f"[{problem_index}]({problem_link}) | {problem_link} | {datetime.today().strftime('%d-%m-%Y')}\n")
+
+time.sleep(2)
+
+# Push to GitHub
+commit_message = "Updated by automated commit 🤖"
+repo.git.add('--all')
+repo.git.commit('-m', commit_message, author='Shakib')
+print('[*] Pushing......')
+origin = repo.remote(name='origin')
+origin.push()
+time.sleep(1)
+print("[=] Successfull")
 
 print("[=] Readme automation successful.")
