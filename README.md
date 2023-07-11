@@ -18,16 +18,20 @@ This repository contains my solutions to the problems on Codeforces, a popular c
 
 The repository is organized as follows:
 
+- [Easy](easy)
+- [Medium](medium)
+- [Hard](hard)
+
 ```
-├── easy
+├── Easy
 │   ├── problem_1.cpp
 │   ├── problem_2.py
 │   └── ...
-├── medium
+├── Medium
 │   ├── problem_1.java
 │   ├── problem_2.cpp
 │   └── ...
-├── hard
+├── Hard
 │   ├── problem_1.py
 │   ├── problem_2.java
 │   └── ...
@@ -51,7 +55,7 @@ I welcome contributions to this repository! If you would like to contribute your
 1. Fork the repository.
 2. Create a new branch for your changes.
 3. Make your modifications, ensuring that the code is well-documented and adheres to the existing coding style.
-4. Test your changes to ensure they function as expected.
+4. Make sure that you put the problem link at the beginning.
 5. Commit your changes and push them to your forked repository.
 6. Submit a pull request, describing your changes and the problem it solves.
 
