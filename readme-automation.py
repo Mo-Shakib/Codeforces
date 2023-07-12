@@ -71,7 +71,7 @@ for difficulty in difficulty_levels.keys():
                 if match:
                     problem_link = match.group(1)
 
-            readme_file.write(f"[{problem_index}]({problem_index}) | {problem_link} | {datetime.today().strftime('%d-%m-%Y')}\n")
+            readme_file.write(f"[{problem_index}]({filename}) | {problem_link} | {datetime.today().strftime('%d-%m-%Y')}\n")
 
 time.sleep(2)
 
