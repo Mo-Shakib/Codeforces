@@ -20,22 +20,22 @@ This repository contains my solutions to the problems on Codeforces, a popular c
 
 The repository is organized as follows:
 
-- [Easy](easy)
-- [Medium](medium)
-- [Hard](hard)
+- [Easy](easy/README.md)
+- [Medium](medium/README.md)
+- [Hard](hard/README.md)
 
 ```
 ├── Easy
-│   ├── problem_1.cpp
+│   ├── problem_1.py
 │   ├── problem_2.py
 │   └── ...
 ├── Medium
-│   ├── problem_1.java
-│   ├── problem_2.cpp
+│   ├── problem_1.py
+│   ├── problem_2.py
 │   └── ...
 ├── Hard
 │   ├── problem_1.py
-│   ├── problem_2.java
+│   ├── problem_2.py
 │   └── ...
 └── README.md
 ```
