@@ -2,6 +2,13 @@
 
 This repository contains my solutions to the problems on Codeforces, a popular competitive programming website. Each problem is categorized based on its difficulty level and is accompanied by a detailed explanation of the solution.
 
+<p align="left">
+    <img src="https://img.shields.io/badge/Language-Python-orange.svg">
+    <img src="https://wakatime.com/badge/user/8e02bfd3-85d8-4d9d-88df-fa983f91ff30/project/62bfc089-91d0-4e95-afb3-c9d6cd08d8c4.svg">
+    <img src="https://img.shields.io/badge/Codeforces-445f9d?logo=Codeforces&logoColor=white&link=https://codeforces.com/profile/iShakib">
+</p>
+<hr>
+
 ## Table of Contents
 
 - [About Codeforces](#about-codeforces)
