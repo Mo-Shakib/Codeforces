@@ -13,8 +13,8 @@ repo = git.Repo(dir_path)
 # Define the problem difficulty levels
 difficulty_levels = {
     "easy": ["A", "B"],
-    "medium": ["C", "D"],
-    "hard": ["E", "F", "G"]
+    "medium": ["C", "D", "E"],
+    "hard": ["F", "G", "H", "I"]
 }
 
 print("[+] Moving files to the appropriate folders...")
