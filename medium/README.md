@@ -1,2 +1,2 @@
-Problem Name | Link | Added Date
+Problem | Codeforces Link | Added Date
 -------------|------|-----------
