@@ -68,8 +68,8 @@ for difficulty in difficulty_levels.keys():
     file_list = sorted(file for file in os.listdir(folder_path) if file != "README.md")
 
     with open(readme_path, "w") as readme_file:
-        readme_file.write("Problem | Codeforces Link | Added Date\n")
-        readme_file.write("-------------|------|-----------\n")
+        readme_file.write("Problem | Codeforces Link |\n")
+        readme_file.write("-------------|------|\n")
 
         for filename in file_list:
             problem_index = filename[:-3]
@@ -81,7 +81,7 @@ for difficulty in difficulty_levels.keys():
                 if match:
                     problem_link = match.group(1)
 
-            readme_file.write(f"[{problem_index}]({filename}) | {problem_link} | {datetime.today().strftime('%d-%m-%Y')}\n")
+            readme_file.write(f"[{problem_index}]({filename}) | {problem_link} |\n")
 
 time.sleep(2)
 
