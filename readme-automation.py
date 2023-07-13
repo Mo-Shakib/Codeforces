@@ -22,7 +22,17 @@ print("[+] Moving files to the appropriate folders...")
 for filename in os.listdir("."):
     if filename.endswith(".py"):
         file_path = os.path.join(".", filename)
-        problem_index = filename[:-3]
+        
+        if filename.endswith(".py"):
+            problem_index = filename[:-3]
+        elif filename.endswith(".cpp"):
+            problem_index = filename[:-4]
+        elif filename.endswith(".c"):
+            problem_index = filename[:-2]
+        elif filename.endswith(".js"):
+            problem_index = filename[:-3]
+        elif filename.endswith(".java"):
+            problem_index = filename[:-5]
 
         for difficulty, levels in difficulty_levels.items():
             if problem_index[-1] in levels:
