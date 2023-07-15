@@ -4,6 +4,7 @@ Problem | Codeforces Link |
 [131A](131A.py) | https://codeforces.com/problemset/problem/131/A |
 [1335A](1335A.py) | https://codeforces.com/problemset/problem/1335/A |
 [1535A](1535A.py) | https://codeforces.com/problemset/problem/1535/A |
+[1560A](1560A.py) | https://codeforces.com/problemset/problem/1560/A |
 [1660A](1660A.py) | https://codeforces.com/contest/1660/problem/A |
 [1692A](1692A.py) | https://codeforces.com/problemset/problem/1692/A |
 [25A](25A.py) | https://codeforces.com/problemset/problem/25/A |
