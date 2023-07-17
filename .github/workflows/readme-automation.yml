@@ -25,6 +25,14 @@ jobs:
         pip install GitPython
         pip install markdown
     
-    - name: Write README.md
+    - name: Write subfolders README.md
       run: |
         python3 readme-automation.py
+    
+    - name: Commit & Push to GitHub
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add -A .
+        git commit -m "Automated Commit 🤖"
+        git push
