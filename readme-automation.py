@@ -82,17 +82,17 @@ for difficulty in difficulty_levels.keys():
                     problem_link = match.group(1)
 
             readme_file.write(f"[{problem_index}]({filename}) | {problem_link} |\n")
-
-time.sleep(2)
-
+    
+    readme_file.close()
+    
 # Push to GitHub
-commit_message = "Updated by automated commit 🤖"
-repo.git.add('--all')
-repo.git.commit('-m', commit_message, author='Shakib')
-print('[*] Pushing......')
-origin = repo.remote(name='origin')
-origin.push()
-time.sleep(1)
-print("[=] Successfull")
+# commit_message = "Updated by automated commit 🤖"
+# repo.git.add('--all')
+# repo.git.commit('-m', commit_message, author='Shakib')
+# print('[*] Pushing......')
+# origin = repo.remote(name='origin')
+# origin.push()
+# time.sleep(1)
+# print("[=] Successfull")
 
-print("[=] Readme automation successful.")
+print("[=] Readme update successful.")
