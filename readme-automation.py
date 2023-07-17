@@ -2,6 +2,21 @@ import os
 import shutil
 import re
 
+# import requests
+# from bs4 import BeautifulSoup
+
+# def getProblemTitle(link):
+#     try:
+#         response = requests.get(link)
+#         response.raise_for_status()  
+#         soup = BeautifulSoup(response.content, 'html.parser')
+#         div_element = soup.find('div', class_="title")
+#         text = div_element.get_text().strip() if div_element else link
+#         return text
+    
+#     except requests.exceptions.RequestException as e:
+#         return link
+
 # Define the problem difficulty levels
 difficulty_levels = {
     "easy": ["A", "B"],
@@ -49,11 +64,22 @@ for difficulty in difficulty_levels.keys():
     with open(readme_path, "w") as readme_file:
         readme_file.write("Problem | Codeforces Link |\n")
         readme_file.write("-------------|------|\n")
-
+        count = 0
         for filename in file_list:
-            problem_index = filename[:-3]
+            
+            if filename.endswith(".py"):
+                problem_index = filename[:-3]
+            elif filename.endswith(".cpp"):
+                problem_index = filename[:-4]
+            elif filename.endswith(".c"):
+                problem_index = filename[:-2]
+            elif filename.endswith(".js"):
+                problem_index = filename[:-3]
+            elif filename.endswith(".java"):
+                problem_index = filename[:-5]
 
             problem_link = ""
+
             try:
                 with open(os.path.join(folder_path, filename), "r") as problem_file:
                     first_line = problem_file.readline().strip()
@@ -61,11 +87,17 @@ for difficulty in difficulty_levels.keys():
                     if match:
                         problem_link = match.group(2)
                     else:
-                        problem_link = "Not found!"
-            except:
-                problem_link = "Not found!"
+                        split_index = problem_index[:-1] + "/" + problem_index[-1] + "/"
+                        problem_link = f"https://codeforces.com/problemset/problem/{split_index}"
+            
+            except:    
+                split_index = problem_index[:-1] + "/" + problem_index[-1] + "/"
+                problem_link = f"https://codeforces.com/problemset/problem/{split_index}"
 
             readme_file.write(f"[{problem_index}]({filename}) | {problem_link} |\n")
+            # readme_file.write(f"[{problem_index}]({filename}) | [{getProblemTitle(problem_link)}]({problem_link}) |\n")
+            count += 1
+            print(f"[+] Updated {difficulty} README file with {count} problems.")
 
     readme_file.close()
 
