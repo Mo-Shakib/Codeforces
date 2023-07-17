@@ -13,7 +13,6 @@ Problem | Codeforces Link |
 [339B](339B.py) | https://codeforces.com/problemset/problem/339/B |
 [41A](41A.py) | https://codeforces.com/problemset/problem/41/A |
 [431A](431A.py) | https://codeforces.com/problemset/problem/431/A |
-[61A](61A.py) | https://codeforces.com/problemset/problem/61/A |
 [677A](677A.py) | https://codeforces.com/problemset/problem/677/A |
 [69A](69A.py) | https://codeforces.com/problemset/problem/69/A |
 [734A](734A.py) | https://codeforces.com/problemset/problem/734/A |
