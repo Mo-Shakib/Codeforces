@@ -1,5 +1,6 @@
 Problem | Codeforces Link |
 -------------|------|
+[1030A](1030A.py) | https://codeforces.com/problemset/problem/1030/A |
 [116A](116A.py) | https://codeforces.com/problemset/problem/116/A |
 [131A](131A.py) | https://codeforces.com/problemset/problem/131/A |
 [1335A](1335A.py) | https://codeforces.com/problemset/problem/1335/A |
@@ -10,6 +11,7 @@ Problem | Codeforces Link |
 [1692A](1692A.py) | https://codeforces.com/problemset/problem/1692/A |
 [1842A](1842A.py) | https://codeforces.com/problemset/problem/1842/A |
 [25A](25A.py) | https://codeforces.com/problemset/problem/25/A |
+[271A](271A.py) | https://codeforces.com/problemset/problem/271/A |
 [337A](337A.py) | https://codeforces.com/problemset/problem/337/A |
 [339B](339B.py) | https://codeforces.com/problemset/problem/339/B |
 [41A](41A.py) | https://codeforces.com/problemset/problem/41/A |
