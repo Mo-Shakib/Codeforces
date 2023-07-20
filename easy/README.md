@@ -15,6 +15,7 @@ Problem | Codeforces Link |
 [337A](337A.py) | https://codeforces.com/problemset/problem/337/A |
 [339B](339B.py) | https://codeforces.com/problemset/problem/339/B |
 [41A](41A.py) | https://codeforces.com/problemset/problem/41/A |
+[427A](427A.py) | https://codeforces.com/problemset/problem/427/A |
 [431A](431A.py) | https://codeforces.com/problemset/problem/431/A |
 [584A](584A.py) | https://codeforces.com/problemset/problem/584/A |
 [677A](677A.py) | https://codeforces.com/problemset/problem/677/A |
