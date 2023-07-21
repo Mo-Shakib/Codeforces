@@ -10,6 +10,8 @@ Problem | Codeforces Link |
 [1660A](1660A.py) | https://codeforces.com/contest/1660/problem/A |
 [1692A](1692A.py) | https://codeforces.com/problemset/problem/1692/A |
 [1842A](1842A.py) | https://codeforces.com/problemset/problem/1842/A |
+[18500A](18500A.py) | https://codeforces.com/contest/1850/problem/A |
+[1850B](1850B.py) | https://codeforces.com/contest/1850/problem/B |
 [25A](25A.py) | https://codeforces.com/problemset/problem/25/A |
 [271A](271A.py) | https://codeforces.com/problemset/problem/271/A |
 [337A](337A.py) | https://codeforces.com/problemset/problem/337/A |
