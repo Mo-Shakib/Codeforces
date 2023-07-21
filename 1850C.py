@@ -1,4 +1,4 @@
-
+# https://codeforces.com/contest/1850/problem/C
 
 for i in range(int(input())):
     text = ''
