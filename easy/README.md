@@ -7,6 +7,7 @@ Problem | Codeforces Link |
 [1535A](1535A.py) | https://codeforces.com/problemset/problem/1535/A |
 [1542A](1542A.py) | https://codeforces.com/problemset/problem/1542/A |
 [1560A](1560A.py) | https://codeforces.com/problemset/problem/1560/A |
+[160A](160A.py) | https://codeforces.com/problemset/problem/160/A |
 [1660A](1660A.py) | https://codeforces.com/contest/1660/problem/A |
 [1692A](1692A.py) | https://codeforces.com/problemset/problem/1692/A |
 [1842A](1842A.py) | https://codeforces.com/problemset/problem/1842/A |
