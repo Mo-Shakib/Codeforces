@@ -2,6 +2,7 @@ Problem | Codeforces Link |
 -------------|------|
 [1030A](1030A.py) | https://codeforces.com/problemset/problem/1030/A |
 [116A](116A.py) | https://codeforces.com/problemset/problem/116/A |
+[1296A](1296A.py) | https://codeforces.com/contest/1296/problem/A |
 [131A](131A.py) | https://codeforces.com/problemset/problem/131/A |
 [1335A](1335A.py) | https://codeforces.com/problemset/problem/1335/A |
 [1535A](1535A.py) | https://codeforces.com/problemset/problem/1535/A |
