@@ -11,6 +11,7 @@ Problem | Codeforces Link |
 [160A](160A.py) | https://codeforces.com/problemset/problem/160/A |
 [1660A](1660A.py) | https://codeforces.com/contest/1660/problem/A |
 [1692A](1692A.py) | https://codeforces.com/problemset/problem/1692/A |
+[1742A](1742A.py) | https://codeforces.com/problemset/problem/1742/A |
 [1807A](1807A.py) | https://codeforces.com/problemset/problem/1807/A |
 [1842A](1842A.py) | https://codeforces.com/problemset/problem/1842/A |
 [18500A](18500A.py) | https://codeforces.com/contest/1850/problem/A |
@@ -22,6 +23,7 @@ Problem | Codeforces Link |
 [41A](41A.py) | https://codeforces.com/problemset/problem/41/A |
 [427A](427A.py) | https://codeforces.com/problemset/problem/427/A |
 [431A](431A.py) | https://codeforces.com/problemset/problem/431/A |
+[451A](451A.py) | https://codeforces.com/problemset/problem/451/A |
 [584A](584A.py) | https://codeforces.com/problemset/problem/584/A |
 [677A](677A.py) | https://codeforces.com/problemset/problem/677/A |
 [69A](69A.py) | https://codeforces.com/problemset/problem/69/A |
